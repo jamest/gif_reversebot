@@ -1,0 +1,10 @@
+
+# ignore sensitive datas
+data/
+*.token
+src/*.pyc
+src/reversegif.py
+src/bot.py
+
+#ignore gifs
+gifs/
