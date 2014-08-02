@@ -39,7 +39,7 @@ r = praw.Reddit(user_agent)
 r.login(user_name, password)
 
 def get_reply_string(gif_url):
-    return 'Reversed for your vieweing pleasure: ' + gif_url
+    return 'Reversed for your viewing pleasure: ' + gif_url
 
 def scanSub():
     print 'searching ' + SUBREDDIT
